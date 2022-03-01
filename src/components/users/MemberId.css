@@ -1,0 +1,161 @@
+.main-member{
+    padding: 20px;
+    margin: 20px;
+    flex: 4;
+ 
+}
+@media (max-width:700px) {
+    .main-member{
+        padding: 5px;
+        margin: 5px;
+     
+     
+    }
+    .right-left{
+        display: flex;
+      flex-direction: column;
+      flex: 0;
+     
+    } 
+    .form-member{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .inbut-form input{
+        width:  299px !important;
+      
+    }
+}
+.right-left{
+    display: flex;
+    box-shadow: 3px 2px 13px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 2px 13px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 2px 13px -2px rgba(0,0,0,0.75);
+padding: 12px;
+margin-top: 15px;
+   
+}
+.information-member{
+    margin-top: 20px;
+    flex: 3;
+   
+    padding-bottom: 50px;
+}
+.form-member{
+    flex: 4;
+    margin-top: 20px;
+}
+.title-member{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title-member span{
+   font-size: 26px;
+   font-weight: 900;
+}
+.title-member button{
+    all: unset;
+    padding: 4px 9px;
+    font-weight: 700;
+    color: white;
+    background-color: rgb(16, 102, 98);
+    cursor: pointer;
+ }
+ .about-member {
+    display: flex;
+    align-items: center;
+ }
+ .about-member .img-member img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+ }
+ .text-member{
+     margin-left: 18px;
+ }
+ .text-member h3{
+    margin: 0;
+    padding: 0;
+ }
+ .text-member span{
+   
+   font-weight: 600;
+   color: rgb(150, 150, 150);
+ }
+
+ .acount-Details {
+     margin-top: 10px;
+     padding: 14px 0;
+ }
+
+ .acount-Details span {
+   color: rgb(161, 161, 161);
+   font-weight: 600;
+}
+.acount-Details .username , .date ,.email {
+    margin: 5px 0;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    color: rgb(43, 43, 43);
+    font-weight: 600;
+}
+.icone-about{
+    margin-right: 8px;
+    color: rgb(94, 94, 94);
+}
+/*inbut information*/
+.form-member{
+    display: flex;
+    justify-content: space-between;
+}
+.left-form span{
+ color: black;
+ font-weight: bolder;
+ font-size: 24px;
+}
+.inbut-form{
+    padding: 15px 5px;
+    display: flex;
+    flex-direction: column;
+}
+.inbut-form label{
+    font-weight: bold;
+    color: rgb(104, 104, 104);
+    
+}
+.inbut-form input{
+    border: 0;
+    border-bottom: 1px solid rgb(109, 109, 109);
+    padding: 8px 0;
+    width: 220px;
+}
+.right-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.about-right-form{
+    display: flex;
+    align-items: center;
+    
+}
+.about-right-form .img img{
+
+   width: 150px;
+   border-radius:8px ;
+}
+.button-update{
+    all: unset;
+    padding: 4px 18px;
+    background-color: red;
+    color: white;
+    border-radius:3px ;
+    margin-bottom: 50px;
+    cursor: pointer;
+    font-weight: 600;
+}

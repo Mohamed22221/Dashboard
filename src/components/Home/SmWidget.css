@@ -1,0 +1,51 @@
+.main-smgwidge{
+    flex: 1;
+    -webkit-box-shadow: 4px 4px 15px -10px rgba(0, 0, 0, 0.897);
+    box-shadow: 4px 4px 15px -10px rgba(0, 0, 0, 0.842);
+    margin-right: 10px;
+    padding: 20px;
+}
+.title-smgwidge{
+    font-size: 22px;
+    font-weight: 600;
+    
+}
+.person-smgwidge{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 27px;
+}
+
+
+.person-smgwidge .img img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.person-smgwidge  .name{
+    display: flex;
+    flex-direction: column;
+}
+.person-smgwidge .name span:first-child{
+    color: rgb(70, 70, 70);
+    font-weight: 600;
+    font-size: 18px;
+}
+.person-smgwidge .name span:last-child{
+    font-size: 18px;
+}
+.person-smgwidge  button {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.person-smgwidge  button .icon-button{
+    margin: 2px;
+    font-size: 17px;
+}
+
+
+
+
+

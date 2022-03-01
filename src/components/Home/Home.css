@@ -1,0 +1,19 @@
+.home{
+    padding: 20px 10px;
+    width: 100%;
+}
+.widget-home{
+    display: flex;
+    padding: 20px;
+    
+}
+@media (max-width:800px) {
+    .widget-home{
+        display: flex;
+        flex-direction: column;
+        
+        
+        margin: 0px 0px 10px;
+        padding: 0px;
+    }
+}
