@@ -57,6 +57,7 @@
      }
      .show{
          display: none;
+         cursor: pointer;
      }
      @media (max-width:1000px) {
         .show{

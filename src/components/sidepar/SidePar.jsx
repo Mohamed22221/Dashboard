@@ -24,7 +24,7 @@ const SidePar = (props) => {
             <div className='pranch-slide'>
                 <h3>Dashbord</h3>
                 <ul  >
-                  <Link to="/Home" >
+                  <Link to="/Dashboard" >
                  
                     <li onClick={props.close}>
                     <LineStyleIcon className="sidebarIcon" />

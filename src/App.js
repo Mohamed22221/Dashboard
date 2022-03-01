@@ -20,8 +20,8 @@ function App() {
     <div className='container'>
     <SidePar click={click} close={close} />
      <Routes>
-         <Route  path="/" element={<Home />} />
-        <Route  path="Home" element={<Home />} />
+         <Route  path="/Dashboard/" element={<Home />} />
+        <Route  path="/Dashboard" element={<Home />} />
         <Route path="User" element={<User />} />
         <Route path="User/:userid" element={<MemberId />} />
     </Routes>
