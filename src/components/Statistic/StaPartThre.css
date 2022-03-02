@@ -1,0 +1,187 @@
+.sta-part-Thre{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(47%, 1fr) );
+    gap: 20px;
+}
+@media (max-width:700px) {
+    .sta-part-Thre{
+        
+        grid-template-columns: repeat( auto-fit, minmax(100%, 1fr) );
+        gap: 0;
+    }
+}
+.left-sta-part-thre{
+    display: flex;
+    margin: 15px 0 40px 15px;
+    box-shadow: 4px 5px 10px -1px rgb(69 90 100 / 30%);
+    border-radius:5px;
+}
+.sta-apout{
+    background-color: #4680ff;
+    color: white;
+   height: 350px;
+   width: 50%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   border-radius:5px 0 0 5px;
+   padding: 10px;
+}
+
+.sta-apout img{
+    width: 180px;
+    border-radius:50% ;
+    margin-top: 18px;
+}
+.sta-apout p{
+   font-weight: 600;
+   color: rgb(209, 209, 209);
+}
+.sta-apout .Upgrade{
+   font-size: 25px;
+   cursor: pointer;
+   opacity: 0.5;
+ }
+.sta-apout h3{
+    margin: 20px 0 0 0;
+    padding: 5px 0 0 0;
+}
+.sta-information {
+    padding: 24px;
+    
+}
+.title-sta-information{
+    font-weight: 600;
+}
+.up-information {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+
+}
+.email-information p{
+    font-weight: bold;
+    color: rgb(90, 90, 90);
+}
+.phone-information{
+    padding-right:40px ;
+}
+.phone-information p:last-child{
+     font-weight: bold;
+    color: rgb(90, 90, 90);
+}
+
+.phone-information p:last-child{
+    font-weight: bold;
+    color: rgb(126, 126, 126);
+}
+.sta-information{
+    width: 85%;
+}
+.social-information{
+    display: flex;
+    justify-content: center;
+    
+}
+.social-icon-information{
+    padding: 5px;
+}
+
+.right-sta-part-thre{
+    display: flex;
+    justify-content: space-between;
+   }
+   .project-risk{
+       flex: 3;
+       box-shadow: 0 2px 10px -1px rgb(69 90 100 / 70%);
+       border-radius:5px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       text-align: center;
+       height: 385px;
+   }
+   .risk-rate a {
+       color: #9ccc65 ;
+   }
+   .project{
+       flex: 4;
+   }
+   
+   .risk-rate span{
+       width: 50px;
+       height: 50px;
+       border-radius: 50%;
+       border-color: #9ccc65 #d6d6d6 transparent;
+       border-style: dashed;
+       border-width: 6px;
+       padding: 45px;
+       display: block;
+       position: relative;
+   }
+   .risk-rate b{
+       font-size: 20px;
+       
+       color: #fff;
+       z-index: 2;
+       position: relative;
+     
+       top: 8px;
+   }
+   .risk-rate span::after{
+       content: "";
+      padding: 60px;
+       background-color: rgba(156,204,101,.5);
+       border-radius: 50%;
+       position: absolute;
+       top: 10px;
+       left: 10px;
+       z-index: 1;
+   }
+   .button-project-task button{
+       all: unset;
+       margin-top: 20px;
+       padding: 8px 40px ;
+       background-color: #9ccc65;
+       color: white;
+       cursor: pointer;
+   }
+@media (max-width:788px) {
+    .sta-part-Thre{
+        grid-template-columns: repeat( auto-fit, minmax(100%, 1fr) );
+    }
+    .sta-apout{
+       width: 99%;
+       padding: 10px;
+    }
+    .left-sta-part-thre{
+        overflow: hidden;
+        padding: 0px;
+        display: flex;
+        flex-direction: column;
+        margin: 15px 0 15px 0px;
+        border-radius:0px ;
+    }
+    .sta-apout{
+       border-radius:0px;
+    }
+    .right-sta-part-thre{
+        padding-bottom: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+       }
+    .project-risk {
+        height: 420px;
+        padding: 50px 0;
+    }
+    .button-project-task button{
+        all: unset;
+        margin-top: 20px;
+       
+        padding: 5px 40px ;
+        background-color: #9ccc65;
+        color: white;
+        cursor: pointer;
+    }
+}

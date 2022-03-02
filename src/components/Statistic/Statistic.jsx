@@ -7,6 +7,7 @@ import ClassIcon from '@mui/icons-material/Class';
 import CloudDownloadIcon from '@mui/icons-material/CloudDownload';
 import TrendingDownIcon from '@mui/icons-material/TrendingDown';
 import StaPartTwo from './StaPartTwo';
+import StaPartThre from './StaPartThre';
 const Statistic = () => {
   return (
      <div className='main-Statistic'>
@@ -77,6 +78,7 @@ const Statistic = () => {
         </div>
     </div>
     <StaPartTwo />
+    <StaPartThre />
     </div> 
   )
 }
