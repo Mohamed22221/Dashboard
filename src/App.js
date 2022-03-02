@@ -8,6 +8,7 @@ import { BrowserRouter  ,Routes , Route } from "react-router-dom";
 import User from "./components/users/User";
 import MemberId from "./components/users/MemberId";
 import userRows from "./components/users/DomyData";
+import Statistic from "./components/Statistic/Statistic";
 
 function App() {
   const [click, setClick] = useState(false);
@@ -23,6 +24,8 @@ function App() {
          <Route  path="/Dashboard/" element={<Home />} />
         <Route  path="/Dashboard" element={<Home />} />
         <Route path="User" element={<User />} />
+        <Route path="Statistic" element={<Statistic />} />
+
         <Route path="User/:userid" element={<MemberId />} />
     </Routes>
     </div>

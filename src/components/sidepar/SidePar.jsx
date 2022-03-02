@@ -31,10 +31,13 @@ const SidePar = (props) => {
                    Home
                     </li> 
                     </Link>
+                    <Link to="Statistic" >
                     <li onClick={props.close}>
                     <TimelineIcon className="sidebarIcon" />
-                       Analytcs
+                    Statistic
                     </li>
+                    </Link>
+
                     <li onClick={props.close}>
                     <TrendingUpIcon className="sidebarIcon" />
                         Sales

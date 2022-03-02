@@ -1,6 +1,5 @@
 import React from 'react'
 import "./MemberId.css"
-import userRows from './DomyData';
 import PersonIcon from '@mui/icons-material/Person';
 import DateRangeIcon from '@mui/icons-material/DateRange';
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
@@ -9,11 +8,9 @@ import HomeWorkIcon from '@mui/icons-material/HomeWork';
 import IosShareIcon from '@mui/icons-material/IosShare';
 
 //members
-import man1 from"../../img/man1.jpg"
-import man2 from"../../img/man2.jpg"
-import man3 from"../../img/man3.jpg"
+
 import woman1 from"../../img/woman1.jpeg"
-import woman2 from"../../img/woman2.jpeg"
+
 const MemberId = ({memper}) => {
 
 

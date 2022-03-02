@@ -1,0 +1,142 @@
+.sta-part-two{
+    padding: 18px 8px 0 8px;
+    margin-top: 14px;
+}
+.main-sta-part-two ,.main-information-stapart{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(200px, 1fr) );
+    gap: 20px;
+}
+@media (max-width:668px) {
+    .main-sta-part-two ,.main-information-stapart{
+        
+        grid-template-columns: repeat( auto-fit, minmax(100%, 1fr) );
+        
+    }
+}
+
+.part-two-item-1 , .part-two-item-2 ,
+.part-two-item-3{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    overflow: hidden;
+    
+}
+.part-two-item-1:hover .icon-pig
+ , .part-two-item-2:hover .icon-pig ,
+.part-two-item-3:hover .icon-pig{
+ transform: rotate(-30deg) scale(1.5);
+
+ transition: all 0.5s ease-in-out;
+    
+}
+.part-two-item-1{
+    background-color: #ffba57;
+    
+
+}
+.part-two-item-2{
+    background-color: #9ccc65;
+
+}
+.part-two-item-3{
+    background-color: #4680ff;
+
+}
+.text-part-two{
+    padding: 0 12px;
+    color: white;
+    font-weight: 600;
+   
+}
+.text-part-two .icon-sm{
+    margin-left:9px;
+    font-size: 16px;
+}
+.text-part-two h3{
+    padding: 0;
+    margin: 0;
+  
+    font-size: 35px;
+}
+.icon-part-two{
+    position: absolute;
+    right: -30px;
+    
+    
+}
+.icon-part-two .icon-pig{
+    
+    font-size: 130px;
+    opacity: 0.5;
+    color: aliceblue;
+}
+/**/
+.main-information-stapart{
+    margin: 10px 0;
+}
+.information-item{
+    box-shadow: 4px 5px 10px -1px rgb(69 90 100 / 30%);
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px 0;
+}
+.information-item h2{
+    margin: 0;
+    color: #535353;
+   
+
+}
+.information-item  .email ,.information-item .twiter ,
+.information-item .WSorkI {
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+}
+.information-item  .email {
+    color: #4680ff
+}
+.information-item .twiter{
+    color: #9ccc65;
+}
+.information-item .WSorkI{
+    color: #ffba57;
+}
+.information-item .number-1 {
+    color: #4680ff;
+}
+.information-item .number-2 {
+    color: #9ccc65;
+}
+.information-item:hover{
+    box-shadow: 4px 5px 10px -1px rgb(69 90 100 / 30%);
+    box-shadow: 7px 4px 14px 2px rgb(69 90 100 / 30%);
+   transition: box-shadow .2s ease-in-out
+}
+.information-item p{
+    font-weight: 600;
+    color: #969696;
+    padding: 0;
+    margin: 12px 0;
+}
+.information-item button{
+ all: unset;
+ padding: 5px 15px;
+ font-weight: bold;
+ 
+ color: white;
+ cursor: pointer;
+}
+.information-item .button-1{
+    background-color: #4680ff;
+}
+.information-item .button-2{
+    background-color: #9ccc65;
+}
+.information-item .button-3{
+    background-color: #ffba57;
+}

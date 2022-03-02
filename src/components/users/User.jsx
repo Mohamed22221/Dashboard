@@ -50,15 +50,17 @@ const [data , useData] = useState(userRows)
 
 
   return (
-    <div className='user' style={{ height: 500, width: '100%' }}>
+    <div className='user' style={{ height: 800, width: '100%' }}>
       <DataGrid
         rows={data} //domy data
         columns={columns}
-        pageSize={7} // how many columns
-        rowsPerPageOptions={[4]}
+        pageSize={15} // how many columns
+        rowsPerPageOptions={[7]}
         checkboxSelection
         
-      />
+      /> 
+      <div></div>
+   
       
        
 

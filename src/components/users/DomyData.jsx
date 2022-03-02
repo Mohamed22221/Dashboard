@@ -89,6 +89,35 @@ const userRows = [
           Remove : "Remove",
           edit : 'edit'
          },
+         { id: 11,
+            firstName: 'sayed',
+            age: 20 ,
+            status:'active' ,
+            transaction:"$120" ,
+            email:"day@gmail.com" ,
+            Remove : "Remove",
+            edit : 'edit'
+           },
+           { id: 12,
+            firstName: 'sameh',
+            age: 13 ,
+            status:'active' ,
+            transaction:"$120" ,
+            email:"day@gmail.com" ,
+            Remove : "Remove",
+            edit : 'edit'
+           },
+           { id: 13,
+            firstName: 'kaled',
+            age: 20 ,
+            status:'active' ,
+            transaction:"$120" ,
+            email:"day@gmail.com" ,
+            Remove : "Remove",
+            edit : 'edit'
+           },
+     
+    
   
   ];
   export default userRows
